@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "791757838681",
+    "project_id": "kunfinal-20b05",
+    "storage_bucket": "kunfinal-20b05.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791757838681:android:c54c578eafcef18d6a5448",
+        "android_client_info": {
+          "package_name": "com.example.finalproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJo3ZMnCfUK_6Y0Tel36tmBZCiu0ZMwAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

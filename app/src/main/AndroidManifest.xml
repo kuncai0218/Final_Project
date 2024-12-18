@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- 网络和定位权限 (保留) -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FinalProject"
+        tools:targetApi="31">
+
+        <!-- 100.x不需要 api_key 元数据 -->
+        <meta-data
+             android:name="com.esri.arcgisruntime.api_key"
+             android:value="AAPTxy8BH1VEsoebNVZXo8HurMWjno9mwrs9l8mY3d91btkcgz5RVAOLmqAkpKevkHfYqFboRl8uV1ARkitR5R0NwSBeZQEv-HhivL1V4YvfBaWbB5tcgptMo7nUTodv49vEs28WnuP0l89sTpInPsO3lab7137vet490x0bzcsMLyq3mRWR4-ixyElFCKlRh145PWyQB2Z-4T3XMXLV4xEfRyQQrFd3SfrXHD2x3TppG8HSgRb6nCI6xcEMO2QoFsDvAT1_2uUMGKTX"/>
+
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.FinalProject">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
